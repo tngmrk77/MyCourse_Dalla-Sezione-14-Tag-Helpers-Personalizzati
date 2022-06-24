@@ -16,10 +16,10 @@
             <aside>
                 <author>di @Model.Author</author>
                 <div class="rating" title="@Model.Rating">
-                   <rating value="@course.Rating"></rating>
+                   <rating value="@Model.Rating"></rating>
                 </div>
                 <div class="price">
-                   <price current-price="@course.CurrentPrice" full-price="@course.FullPrice"></price>
+                   <price current-price="@Model.CurrentPrice" full-price="@Model.FullPrice"></price>
                 </div>
                 <img src="@Model.ImagePath" class="img-fluid course-image" alt="@Model.Title">
             </aside>
